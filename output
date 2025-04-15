@@ -1,0 +1,38 @@
+When you run the Main.java program, it will perform the following operations:
+
+Step 1: Create a New Student
+The application will create a new student with the name "John Doe" and age 22. This data will be saved into the MySQL database.
+
+yaml
+.
+.
+Creating new student: John Doe, Age: 22
+Step 2: Read the Student
+After the student is created, the application will retrieve the student from the database using the ID generated. You should see the following output:
+
+yaml
+.
+.
+Retrieved Student: John Doe
+Step 3: Update the Student
+The program then updates the student's name to "Johnathan Doe". The updated name will be reflected in the database, and the following output will appear:
+
+yaml
+.
+.
+Updated Student: Johnathan Doe
+Step 4: Delete the Student
+Finally, the student will be deleted from the database. After the deletion, the following output will appear:
+
+nginx
+.
+.
+Student deleted
+Full Console Output Example:
+yaml
+.
+.
+Creating new student: John Doe, Age: 22
+Retrieved Student: John Doe
+Updated Student: Johnathan Doe
+Student deleted
